@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Conway's Game of Life</title>
+    <meta charset="utf-8">
+    <!---FONT--->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <style>
+        html, body {
+            overflow: hidden;
+            margin: 0px;
+            font-family: Karla, sans-serif;
+            line-height: 1.25;
+        }
+        canvas {
+            position: absolute;
+        }
+        .bottom-div {
+            position: fixed;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.75);
+            padding: 1px;
+        }
+        #help-dir {
+            position: absolute;
+            width: 230px;
+            left: 25px;
+            bottom: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="help-dir" class="bottom-div">
+        <p> Connections are fleeting. Only those which are shared  or noticed become stories, moments, and coincidences. Most connections that exist between two people or two moments are lost as we pass by eachother without a word.</p>
+        <p>R to restart <br>
+        Spacebar to pause 
+        <br>N to move forward one step</p>
+    </div>
+</body>
+</html>
